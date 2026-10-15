@@ -30,4 +30,48 @@ todo-app-crud-api/
 │
 ├── index.html       # Main HTML layout structure
 ├── style.css        # Application styles and responsive design
-└── script.js        # API integration, DOM manipulation, and event handling
+|── script.js        # API integration, DOM manipulation, and event handling
+└── README.md        # Project documentation 
+```
+
+
+## 🌐 API Endpoints Used
+This application connects to a remote mock REST endpoint supporting pagination parameters:
+
+- **Base URL**: `https://6acf499903feaa52b21e489a.mockapi.io/todo/tasks`
+
+- **GET** (`/tasks`) - Fetch all tasks 
+
+- **POST** (`/tasks`) - Add a new task
+
+- **PUT** (`/tasks/:id`) - Update an existing task by ID
+
+- **DELETE** (`/tasks/:id`) - Remove a task by ID
+
+
+
+## ⚙️ How to Setup Locally
+To run this project locally on your machine, follow these simple steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/dev-deepak-prajapati/todo-app-crud-api.git
+   ```
+
+2. **Navigate into the directory:**
+   ```bash
+   cd todo-app-crud-api
+   ```
+
+3. **Open the project:**
+   Simply double-click `index.html` or run it using an extension like **Live Server** in VS Code.
+
+
+## 📄 License
+
+This project is licensed under the MIT License - feel free to use and modify it for your own learning or projects!
+
+
+## 💡 Author
+Built with ❤️ by Deepak Prajapati.
+
