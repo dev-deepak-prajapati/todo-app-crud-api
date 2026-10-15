@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>To-Do App</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>To-Do App</h1>
+                <div class="inputBox">
+                    <input
+                        id="inputText"
+                        type="text"
+                        placeholder="Type a new task..."
+                    />
+                    <button id="addTodoBtn">Add</button>
+                </div>
+            </header>
+            <!--  -->
+            <div class="todoList">
+                <!-- using js todo items  -->
+            </div>
+
+            <!-- Pagination Controls -->
+            <div class="pagination">
+                <button id="prevBtn">Previous</button>
+                <span id="pageInfo">Page 1</span>
+                <button id="nextBtn">Next</button>
+            </div>
+            <!--  -->
+        </div>
+        <!--  -->
+        <script src="script.js"></script>
+    </body>
+</html>
